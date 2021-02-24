@@ -31,7 +31,7 @@ namespace Battlefield
         }
         //methods
 
-        public void Attack( Dinosaur dinosaur)
+        public void Attack(Dinosaur dinosaur)
         {
             dinosaur.health -= weapon.attackLevel;
         }
